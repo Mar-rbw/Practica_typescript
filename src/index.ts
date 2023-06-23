@@ -125,6 +125,6 @@ const objeto: Persona = {
         calle: "Siempre viva",
         pais: "Chanchitolandia"
     }
-
 }
-
+/* Solo pueden existir arreglos de persona */
+const arr: Persona[] = []
