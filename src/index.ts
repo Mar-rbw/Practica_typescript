@@ -57,4 +57,25 @@ let checks: boolean[] = [] */
 
 /* Tipos tupla
  */
-let tupla: [number, string[]] = [1, ["chanchito feliz","chanchito felipe"]]
+/* let tupla: [number, string[]] = [1, ["chanchito feliz","chanchito felipe"]]
+
+Error en Typescript
+
+tupla.push(12) */ // No arroja error indicando que no podemos realizar dicha acción
+
+/* Tipos Enums */
+
+// PascalCase
+enum  Talla {
+    Chica = "s", Mediana = "m", Grande = "l", ExtraGrande = "xl"
+}
+
+const varible1 = Talla.Grande
+console.log(varible1)
+
+//Colocando la palabra reservada const antes del enum para que nos genere un código más reducido.
+//De esta manera, solamente se van asignar los valor en el codigo final de JS,
+//siempre y cuando hayamos creado const o var que contenga un valor dentro de nuestro enum 
+const enum LoadingState { Idle, Loading, Success, Error }
+
+const estado = LoadingState.Success
