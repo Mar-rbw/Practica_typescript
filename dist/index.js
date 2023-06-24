@@ -14,5 +14,15 @@ var Talla;
 })(Talla || (Talla = {}));
 const varible1 = Talla.Grande;
 console.log(varible1);
-const estado = 2;
+const objeto = {
+    id: 1,
+    nombre: "Hola Mundo",
+    talla: Talla.Mediana,
+    direccion: {
+        numero: 1,
+        calle: "Siempre viva",
+        pais: "Chanchitolandia"
+    }
+};
+const arr = [];
 //# sourceMappingURL=index.js.map
